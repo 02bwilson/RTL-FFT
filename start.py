@@ -6,10 +6,9 @@ import sys
 
 
 def main() -> None:
-    args = sys.argv[1:]
     app = QApplication([])
     
-    window = RTLFFT(args[0])
+    window = RTLFFT()
     window.show()
     
     app.exec()

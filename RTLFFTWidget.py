@@ -13,7 +13,7 @@ from SDRManager import SDRManager
 
 class MainWidget(QWidget):
     
-    def __init__(self, center_freq: str) -> None:
+    def __init__(self) -> None:
         QWidget.__init__(self)
         
         self.plot_widget = None
