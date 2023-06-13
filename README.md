@@ -1,12 +1,6 @@
 # RTL-FFT
 RTL-FFT is a program that takes data from a RTL-SDR device and shows the Fast Fourier Transform (FFT) of the data. It is written in Python 3 and uses PyQt, numpy, scipy and pyqtgraph libraries.
 
-# Features
-Real-time FFT display of the input signal
-Adjustable frequency range and resolution
-Adjustable window function and dynamic range
-Save and load FFT data as CSV files
-Export FFT plot as PNG image
 Installation
 To run RTL-FFT, you need to have a RTL-SDR device and its driver installed on your system. You also need to install the following Python packages:
 
